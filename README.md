@@ -27,4 +27,4 @@ We want to ensure that no portion of the patient is lost during rotation. Thus, 
 
 Each of the experimental notebooks have the same layout and use methods. You should store your image labels and data in the data folder. If you want to run the experiment, you should run first the notebook transformed_rotations_01.ipynb (adjusting paths as necessary), run your nnUnet model as usual, then run transformed_metrics_01.ipynb to get the results. You can also get a better understanding of the datapipeline by running the control_rotations_01.ipynb and control_predictions_01.ipynb in the same way. Results will be stored in the transformed_results and control_results folders. 
 
-You can adapt any of these experiments as needed to futher understand the effect of rotations on the model. You can also easily extend to other data augnentations strategies by updating the Monai Transformations in the transformation notebooks. Enjoy!
+You can adapt any of these experiments as needed to futher understand the effect of rotations on the model. You can also easily extend to other data augmentation strategies by updating the Monai Transformations in the transformation notebooks. Enjoy!
